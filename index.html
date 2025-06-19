@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Fira+Code:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Soaeb Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo3.png" alt="logo" width="32"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <!-- <a class="navbar-brand" href="#"><img src="logo3.png" alt="logo" width="32"></a> -->
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Soaeb Hasan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Hire Me</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex">
+                        <button class="portfolio">Portfolio</button>
+                    </div>
+                    <!-- <ul class="navbar-nav justify-content-end flex-grow-1"><button class="portfolio">Portfolio</button></ul> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="gradient-background hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Soaeb Hasan</span></h1>
+                <p class="hero-subtitle">A Passionate <span class="typed-text">Fullstack Developer & UI Designer</span>
+                </p>
+                <p class="hero-description">
+                    I specialize in creating stunning, user-friendly digital experiences. Let's build something amazing
+                    together!
+                </p>
+                <div class="hero-cta">
+                    <!-- <a href="#projects" class="btn btn-primary">View My Work</a> -->
+                    <!-- <a href="#contact" class="btn btn-outline">Let’s Collaborate</a> -->
+                    <button class="button view-work">View My Work</button>
+                    <button class="button collaborate">Let’s Collaborate</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./06_Certificate/000_My_photo_for_bg.png" alt="Soaeb Hasan" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- HTML -->
+    <section class="about-section gradient-background" id="about">
+        <div class="about-container">
+            <!-- Text Content -->
+            <div class="about-content">
+                <h2 class="section-heading">About Me</h2>
+                <p class="bio-text">
+                    🌟 Full-stack developer with a passion for creating user-friendly solutions.
+                    Currently specializing in React and Django, I bring ideas to life through
+                    clean code and thoughtful design.
+                </p>
+                <p class="bio-text">
+                    I enjoy solving complex problems, optimizing user experiences, and continuously learning new
+                    technologies to stay ahead in this ever-evolving field. Whether it's crafting a seamless website,
+                    designing intuitive interfaces, or building powerful applications, I am always eager to take on new
+                    challenges.
+                </p>
+
+
+                <div class="soft-skills">
+                    <h3>My Strengths</h3>
+                    <div class="skills-list">
+                        <div class="skill-card">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <!-- Add more skills -->
+                    </div>
+                </div>
+
+                <a href="#resume" class="resume-button">
+                    <i class="fas fa-file-download"></i>
+                    Download Resume
+                </a>
+            </div>
+
+            <!-- Skills Visualization -->
+            <div class="skills-visual">
+                <p style="font-size: xx-large;">My Skills</p>
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-python"></i> -->
+                        <img src="./06_Certificate/python.png" alt="python" width="32">
+                        <span>Python</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-"></i> -->
+                        <img src="./06_Certificate/c-.png" alt="C programming" width="32">
+                        <span>C Programming</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-"></i> -->
+                        <img src="./06_Certificate/c-logo.png" alt="C++ programming" width="32">
+                        <span>C++ Programming</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fa-brands fa-css"></i> -->
+                        <img src="./06_Certificate/html.png" alt="html" width="32">
+                        <span>HTML</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 97%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-react"></i> -->
+                        <img src="./06_Certificate/css.png" alt="css" width="32">
+                        <span>CSS</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-react"></i> -->
+                        <img src="./06_Certificate/java-script.png" alt="java script" width="32">
+                        <span>Java Script</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 1%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill-meter">
+                    <div class="skill-info">
+                        <!-- <i class="fab fa-react"></i> -->
+                        <img src="./06_Certificate/django.png" alt="django" width="32">
+                        <span>Django</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" style="width: 1%"></div>
+                    </div>
+                </div>
+
+                <!-- Add more skills -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Projects Cards -->
+    <section class="gradient-background projects-section">
+        <div class="container">
+            <h2 class="section-title">🚀Featured Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/E-Commerce.jfif" alt="E-commerce Platform">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>E-commerce Platform</h3>
+                        <p class="project-desc">Built a full-stack shopping platform with HTML, CSS, javascript & Django
+                        </p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                            <span>Django</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Repeat 7 more project cards (change content accordingly) -->
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/fitness-tracker-mobile-app.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Fitness Tracker</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="./06_Certificate/.jfif" alt="fitness tracker Mobile App">
+                        <div class="image-overlay">
+                            <a href="#" class="preview-link">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hospital Management</h3>
+                        <p class="project-desc">Cross-platform mobile app for health monitoring</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                        <a href="#" class="case-study-link">
+                            View Case Study <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Add remaining 6 project cards following same structure -->
+            </div>
+            <!-- Add this button AFTER your projects-grid div -->
+            <button class="see-more-btn">See More</button>
+        </div>
+    </section>
+
+
+
+
+    <section id="certificates" class="gradient-background">
+        <div class="container">
+            <h2>📜 My Certificates</h2>
+            <div class="certificates-grid">
+                <!-- Certificate 1 -->
+
+
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <img src="./06_Certificate/04_NCC_B_Certifaicate_enhanced.jpg" alt="Certificate 2"
+                        onclick="openLightbox(this)">
+                    <h3>Python for Data Science</h3>
+                    <p>Issued by: Coursera | 2023</p>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <img src="./06_Certificate/02_12th_Certificate_enhanced.jpg" alt="Certificate 3"
+                        onclick="openLightbox(this)">
+                    <h3>Machine Learning</h3>
+                    <p>Issued by: Google AI | 2023</p>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <img src="./06_Certificate/01_10th_Certificate_enhanced.jpg" alt="Certificate 4"
+                        onclick="openLightbox(this)">
+                    <h3>Full Stack Development</h3>
+                    <p>Issued by: FreeCodeCamp | 2024</p>
+                </div>
+
+                <!-- More Certificates (Initially Hidden) -->
+                <div class="certificate-card hidden">
+                    <img src="./06_Certificate/.jpg" alt="Certificate 5" onclick="openLightbox(this)">
+                    <h3>AI & ML</h3>
+                    <p>Issued by: Stanford | 2024</p>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="./06_Certificate/03_ATL_Certificate_enhanced.jpg" alt="Certificate 1"
+                        onclick="openLightbox(this)">
+                    <h3>Web Development</h3>
+                    <p>Issued by: Udemy | 2024</p>
+                </div>
+
+                <div class="certificate-card hidden">
+                    <img src="./06_Certificate/.jpg" alt="Certificate 6" onclick="openLightbox(this)">
+                    <h3>Cyber Security</h3>
+                    <p>Issued by: Harvard | 2023</p>
+                </div>
+
+                <div class="certificate-card hidden">
+                    <img src="./06_Certificate/.jpg" alt="Certificate 7" onclick="openLightbox(this)">
+                    <h3>Blockchain Basics</h3>
+                    <p>Issued by: MIT | 2024</p>
+                </div>
+            </div>
+
+            <!-- "See More" Button (Now Outside Grid) -->
+            <div class="see-more-wrapper">
+                <button id="seeMoreBtn" onclick="toggleCertificates()">See More</button>
+            </div>
+        </div>
+
+        <!-- Lightbox for Full Image View -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img">
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Info</h2>
+                <p><strong>Email:</strong> saibuhasan22@gmail.com</p>
+                <p><strong>Phone:</strong> +91 4444 44 4444</p>
+                <p><strong>Location:</strong> Roorkee, India</p>
+
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="https://twitter.com/@soaebism_02" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/me/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/soaebhasan12" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/soaebism_04/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram" target="_blank"></i></a>
+                </div>
+
+                <!-- Optional Map Embed -->
+                <div class="map-embed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8391.193090584416!2d77.89396782254137!3d29.841707103575562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb31039a93dc3%3A0x1c2ce7565cdfa5ee!2sMilap%20Nagar%20Rd%2C%20Andheri%20West%2C%20Mohanpura%2C%20Roorkee%2C%20Uttarakhand%20247667!5e0!3m2!1sen!2sin!4v1738794083005!5m2!1sen!2sin"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const projects = document.querySelectorAll('.project-card');
+            const seeMoreBtn = document.querySelector('.see-more-btn');
+            let visibleProjects = 4; // Initial visible projects
+            let isExpanded = false;
+
+            // Hide projects beyond initial visible count
+            projects.forEach((project, index) => {
+                if (index >= visibleProjects) {
+                    project.classList.add('hidden');
+                }
+            });
+
+            seeMoreBtn.addEventListener('click', () => {
+                isExpanded = !isExpanded;
+
+                if (isExpanded) {
+                    // Show all projects
+                    projects.forEach(project => project.classList.remove('hidden'));
+                    seeMoreBtn.textContent = 'See Less';
+                    seeMoreBtn.style.backgroundColor = '#e74c3c';
+                } else {
+                    // Hide projects beyond initial count
+                    projects.forEach((project, index) => {
+                        if (index >= visibleProjects) {
+                            project.classList.add('hidden');
+                        }
+                    });
+                    seeMoreBtn.textContent = 'See More';
+                    seeMoreBtn.style.backgroundColor = '#3498db';
+                }
+            });
+        });
+
+
+
+        function toggleCertificates() {
+            let hiddenCertificates = document.querySelectorAll('.certificate-card.hidden');
+            let button = document.getElementById('seeMoreBtn');
+
+            if (button.innerText === "See More") {
+                hiddenCertificates.forEach(card => {
+                    card.style.display = "flex";
+                    setTimeout(() => card.style.opacity = "1", 100);
+                });
+
+                // Move button to end of certificates
+                document.querySelector('.see-more-wrapper').scrollIntoView({ behavior: 'smooth', block: 'end' });
+
+                button.innerText = "See Less";
+            } else {
+                hiddenCertificates.forEach(card => {
+                    card.style.opacity = "0";
+                    setTimeout(() => card.style.display = "none", 500);
+                });
+
+                button.innerText = "See More";
+            }
+        }
+
+        function openLightbox(imgElement) {
+            document.getElementById("lightbox").style.display = "flex";
+            document.getElementById("lightbox-img").src = imgElement.src;
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+
+
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+          });
+
+    </script>
+</body>
+
+</html>
