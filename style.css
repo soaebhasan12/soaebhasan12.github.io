@@ -561,8 +561,12 @@ body {
 
 @media (max-width: 768px) {
     .social-links-hero {
+        display: flex;
         gap: 1rem;
-    }
+        margin-top: 1.5rem;
+        justify-content: center;
+}
+    
     .social-links-hero a {
         width: 36px;
         height: 36px;
@@ -572,9 +576,12 @@ body {
 
 @media (max-width: 480px) {
     .social-links-hero {
-        gap: 0.8rem;
+        display: flex;
+        gap: 1rem;
         margin-top: 1.2rem;
+        justify-content: center;
     }
+
     .social-links-hero a {
         width: 32px;
         height: 32px;
