@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="logo3.png" alt="logo" width="32"></a>
+    <nav class="navbar navbar-expand-lg fixed-top" >
+        <div class="container-fluid"  id="Home-Section">
+            <a href="#Main-Section" class="navbar-brand"><img src="logo3.png" alt="logo" width="32"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,19 +32,19 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#Home-Section">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">About</a>
+                            <a class="nav-link mx-lg-2" href="#About-Section">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Projects</a>
+                            <a class="nav-link mx-lg-2" href="#Project-Section">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Contact</a>
+                            <a class="nav-link mx-lg-2" href="#Contact-Section">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Hire Me</a>
+                            <a class="nav-link mx-lg-2" href="#Certificate-Section">Certificates</a>
                         </li>
 
                     </ul>
@@ -57,8 +57,8 @@
         </div>
     </nav>
 
-    <section class="gradient-background hero-section">
-        <div class="container">
+    <section class="gradient-background hero-section" id="Hero-Section">
+        <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">Hello, I'm <span class="highlight">Soaeb Hasan</span></h1>
                 <p class="hero-subtitle"><span class="typed-text">Back-End Developer | Building ML-Integrated Web Apps | CS Engineering Student</span>
@@ -88,7 +88,7 @@
 
 
     <!-- HTML -->
-    <section class="about-section gradient-background" id="about">
+    <section class="about-section gradient-background" id="About-Section">
         <div class="about-container">
             <!-- Text Content -->
             <div class="about-content">
@@ -216,24 +216,19 @@
 
 
 
-    <!-- Projects Cards -->
-    <section class="gradient-background projects-section">
+<!-- Projects Cards -->
+<section class="projects-section gradient-background" id="Project-Section">
     <div class="container">
-        <h2 class="section-title">🚀Featured Projects</h2>
+        <h2 class="section-title">🚀 Featured Projects</h2>
 
         <div class="projects-grid">
             <!-- Project Card 1 -->
             <div class="project-card">
                 <div class="card-image">
-                    <img src="./06_Certificate/resume-builder.jpg" alt="E-commerce Platform">
-                    <div class="image-overlay">
-                        <a href="#" class="preview-link">
-                            <i class="fas fa-expand"></i>
-                        </a>
-                    </div>
+                    <img src="./06_Certificate/resume-builder.jpg" alt="Resume Builder">
                 </div>
                 <div class="card-content">
-                    <h3 style="color: black;">RESUME BUILDER</h3>
+                    <h3>RESUME BUILDER</h3>
                     <p class="project-desc">Built a full-stack RESUME BUILDER with HTML, CSS, Django & Python</p>
                     <div class="tech-stack">
                         <span>HTML</span>
@@ -241,97 +236,73 @@
                         <span>Django</span>
                         <span>Python</span>
                     </div>
-                    <a href="#" class="case-study-link">
-                        View Case Study <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <a href="#" class="case-study-link">View Case Study →</a>
                 </div>
             </div>
 
             <!-- Project Card 2 -->
             <div class="project-card">
                 <div class="card-image">
-                    <img src="./06_Certificate/number_guessing_game.png" alt="fitness tracker Mobile App">
-                    <div class="image-overlay">
-                        <a href="#" class="preview-link">
-                            <i class="fas fa-expand"></i>
-                        </a>
-                    </div>
+                    <img src="./06_Certificate/number_guessing_game.png" alt="Number Guessing Game">
                 </div>
                 <div class="card-content">
-                    <h3 style="color: black;">Number Guessing Game</h3>
-                    <p class="project-desc">User have to guess a number, which select by the computer.</p>
+                    <h3>Number Guessing Game</h3>
+                    <p class="project-desc">User have to guess a number selected by the computer</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
-                        <span>javascript</span>
+                        <span>JavaScript</span>
                     </div>
-                    <a href="#" class="case-study-link">
-                        View Case Study <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <a href="#" class="case-study-link">View Case Study →</a>
                 </div>
             </div>
 
+            <!-- Project Card 3 -->
             <div class="project-card">
                 <div class="card-image">
-                    <img src="./06_Certificate/Higher_Lower_Game.png" alt="fitness tracker Mobile App">
-                    <div class="image-overlay">
-                        <a href="#" class="preview-link">
-                            <i class="fas fa-expand"></i>
-                        </a>
-                    </div>
+                    <img src="./06_Certificate/Higher_Lower_Game.png" alt="Higher Lower Game">
                 </div>
                 <div class="card-content">
-                    <h3 style="color: black;">HIGHER LOWER GAME</h3>
-                    <p class="project-desc">Compare Which Account Has Most/Less Followers on instagram</p>
+                    <h3>HIGHER LOWER GAME</h3>
+                    <p class="project-desc">Compare which account has more followers on Instagram</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>Django</span>
-                        <span>javascript</span>
+                        <span>JavaScript</span>
                     </div>
-                    <a href="#" class="case-study-link">
-                        View Case Study <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <a href="#" class="case-study-link">View Case Study →</a>
                 </div>
             </div>
 
+            <!-- Project Card 4 -->
             <div class="project-card">
                 <div class="card-image">
-                    <img src="./06_Certificate/Higher_Lower_Game.png" alt="fitness tracker Mobile App">
-                    <div class="image-overlay">
-                        <a href="#" class="preview-link">
-                            <i class="fas fa-expand"></i>
-                        </a>
-                    </div>
+                    <img src="./06_Certificate/Higher_Lower_Game.png" alt="Higher Lower Game">
                 </div>
                 <div class="card-content">
-                    <h3 style="color: black;">HIGHER LOWER GAME</h3>
-                    <p class="project-desc">Compare Which Account Has Most/Less Followers on instagram</p>
+                    <h3>HIGHER LOWER GAME</h3>
+                    <p class="project-desc">Compare which account has more followers on Instagram</p>
                     <div class="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>Django</span>
-                        <span>javascript</span>
+                        <span>JavaScript</span>
                     </div>
-                    <a href="#" class="case-study-link">
-                        View Case Study <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <a href="#" class="case-study-link">View Case Study →</a>
                 </div>
             </div>
-
-            <!-- Add more project cards as needed -->
         </div>
-        
-        <button class="see-more-btn">See More</button>
+        <!-- <button class="see-more-btn">See More</button> -->
     </div>
 </section>
 
 
 
 
-<section id="certificates" class="gradient-background">
+<section id="certificates" class="gradient-background" id="Certificate-Section">
     <div class="container">
-        <h2>📜 My Certificates</h2>
+        <h2 class="section-title">📜 My Certificates</h2>
         <div class="certificates-grid">
             <!-- Certificate 1 -->
             <div class="certificate-card">
@@ -383,7 +354,7 @@
 
 
 
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section" id="Contact-Section">
         <div class="contact-container">
             <!-- Contact Form -->
             <div class="contact-form">
@@ -440,36 +411,53 @@
     </script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-    const projects = document.querySelectorAll('.project-card');
+// JavaScript for See More functionality
+document.addEventListener('DOMContentLoaded', function() {
     const seeMoreBtn = document.querySelector('.see-more-btn');
-    let visibleProjects = 3; // Initial visible projects
+    const projectCards = document.querySelectorAll('.project-card');
     let isExpanded = false;
-
-    // Hide projects beyond initial visible count
-    projects.forEach((project, index) => {
-        if (index >= visibleProjects) {
-            project.classList.add('hidden');
+    
+    // Initially show only 3 projects on desktop, 2 on mobile
+    function setInitialVisibility() {
+        const showCount = window.innerWidth <= 768 ? 2 : 3;
+        
+        projectCards.forEach((card, index) => {
+            if (index >= showCount) {
+                card.style.display = 'none';
+            } else {
+                card.style.display = 'block';
+            }
+        });
+        
+        // Hide See More button if there are no more projects to show
+        if (projectCards.length <= showCount) {
+            seeMoreBtn.style.display = 'none';
+        } else {
+            seeMoreBtn.style.display = 'block';
+            seeMoreBtn.textContent = 'See More';
+            isExpanded = false;
         }
-    });
-
-    seeMoreBtn.addEventListener('click', () => {
+    }
+    
+    // Initialize
+    setInitialVisibility();
+    
+    // Handle window resize
+    window.addEventListener('resize', setInitialVisibility);
+    
+    // See More button click handler
+    seeMoreBtn.addEventListener('click', function() {
         isExpanded = !isExpanded;
-
+        
         if (isExpanded) {
             // Show all projects
-            projects.forEach(project => project.classList.remove('hidden'));
-            seeMoreBtn.textContent = 'See Less';
-            seeMoreBtn.style.backgroundColor = '#e74c3c';
-        } else {
-            // Hide projects beyond initial count
-            projects.forEach((project, index) => {
-                if (index >= visibleProjects) {
-                    project.classList.add('hidden');
-                }
+            projectCards.forEach(card => {
+                card.style.display = 'block';
             });
-            seeMoreBtn.textContent = 'See More';
-            seeMoreBtn.style.backgroundColor = '#3498db';
+            seeMoreBtn.textContent = 'See Less';
+        } else {
+            // Return to initial state
+            setInitialVisibility();
         }
     });
 });
