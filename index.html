@@ -11,7 +11,7 @@
             crossorigin="anonymous">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Fira+Code:wght@300;400;700&display=swap"
             rel="stylesheet">
@@ -93,13 +93,14 @@
                         <!-- <a href="#projects" class="btn btn-primary">View My Work</a> -->
                         <!-- <a href="#contact" class="btn btn-outline">Let’s Collaborate</a> -->
                         <button class="button view-work">
-                            <a href="#Project-Section"
-                                style="color: white; text-decoration: none;">VIEW
-                                MY WORK</a>
+                            <a href="#Project-Section" class="button view-work">
+                                VIEW MY WORK
+                            </a>
                         </button>
                         <button class="button collaborate">
-                            <a href="https://github.com/soaebhasan12"
-                                style="color: white; text-decoration: none;">COLLABORATE</a>
+                           <a href="https://github.com/soaebhasan12" class="button collaborate" target="_blank">
+                                COLLABORATE
+                            </a>
                         </button>
                         <div class="social-links-hero">
                             <a style="text-decoration: none;"
@@ -136,7 +137,6 @@
             </div>
         </section>
 
-        <!-- HTML -->
         <section class="about-section gradient-background" id="About-Section">
             <div class="about-container">
                 <!-- Text Content -->
@@ -183,142 +183,201 @@
                 </div>
 
                 <!-- Skills Visualization -->
+                <!-- Replace your skills-visual section with this code -->
                 <div class="skills-visual">
-                    <p style="font-size: xx-large;">My Skills</p>
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-python"></i> -->
-                            <img src="./Certificate_and_PNGs/python.png"
-                                alt="python" width="32">
-                            <span>Python</span>
+                    <h2 class="skills-title">Technical Expertise</h2>
+                    <p class="skills-subtitle">A representation of my proficiency across different technologies</p>
+                    
+                    <div class="skills-grid">
+                        <!-- Programming Languages -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <i class="fas fa-code"></i>
+                                Programming Languages
+                            </h3>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/python.png" alt="Python" class="skill-icon">
+                                            <span class="skill-name">Python</span>
+                                        </div>
+                                        <span class="skill-percentage">Advanced</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="90"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/c-.png" alt="C Programming" class="skill-icon">
+                                            <span class="skill-name">C Programming</span>
+                                        </div>
+                                        <span class="skill-percentage">Intermediate</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="75"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/c-logo.png" alt="C++ Programming" class="skill-icon">
+                                            <span class="skill-name">C++ Programming</span>
+                                        </div>
+                                        <span class="skill-percentage">Advanced</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="85"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 90%"></div>
+                        
+                        <!-- Web Development -->
+                        <div class="skill-category">
+                            <h3 class="category-title">
+                                <i class="fas fa-laptop-code"></i>
+                                Web Development
+                            </h3>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/html.png" alt="HTML" class="skill-icon">
+                                            <span class="skill-name">HTML</span>
+                                        </div>
+                                        <span class="skill-percentage">Expert</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="95"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/css.png" alt="CSS" class="skill-icon">
+                                            <span class="skill-name">CSS</span>
+                                        </div>
+                                        <span class="skill-percentage">Proficient</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="80"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/java-script.png" alt="JavaScript" class="skill-icon">
+                                            <span class="skill-name">JavaScript</span>
+                                        </div>
+                                        <span class="skill-percentage">Intermediate</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="70"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-info">
+                                            <img src="./Certificate_and_PNGs/django.png" alt="Django" class="skill-icon">
+                                            <span class="skill-name">Django</span>
+                                        </div>
+                                        <span class="skill-percentage">Advanced</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-level="85"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        
+                        <!-- Additional categories can be added here -->
                     </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-"></i> -->
-                            <img src="./Certificate_and_PNGs/c-.png"
-                                alt="C programming" width="32">
-                            <span>C Programming</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 70%"></div>
-                        </div>
+                    
+                    <div class="skill-level-guide">
+                        <h4>Proficiency Levels:</h4>
+                        <ul>
+                            <li><span class="level-dot expert"></span> Expert: Extensive experience with advanced concepts</li>
+                            <li><span class="level-dot advanced"></span> Advanced: Strong knowledge and implementation skills</li>
+                            <li><span class="level-dot proficient"></span> Proficient: Comfortable with core concepts</li>
+                            <li><span class="level-dot intermediate"></span> Intermediate: Working knowledge and experience</li>
+                        </ul>
                     </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-"></i> -->
-                            <img src="./Certificate_and_PNGs/c-logo.png"
-                                alt="C++ programming" width="32">
-                            <span>C++ Programming</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 85%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fa-brands fa-css"></i> -->
-                            <img src="./Certificate_and_PNGs/html.png"
-                                alt="html" width="32">
-                            <span>HTML</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 97%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-react"></i> -->
-                            <img src="./Certificate_and_PNGs/css.png" alt="css"
-                                width="32">
-                            <span>CSS</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 75%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-react"></i> -->
-                            <img src="./Certificate_and_PNGs/java-script.png"
-                                alt="java script" width="32">
-                            <span>Java Script</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 70%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-meter">
-                        <div class="skill-info">
-                            <!-- <i class="fab fa-react"></i> -->
-                            <img src="./Certificate_and_PNGs/django.png"
-                                alt="django" width="32">
-                            <span>Django</span>
-                        </div>
-                        <div class="meter-bar">
-                            <div class="meter-fill" style="width: 85%"></div>
-                        </div>
-                    </div>
-
-                    <!-- Add more skills -->
                 </div>
             </div>
         </section>
 
         <!-- Projects Cards -->
-        <section class="projects-section gradient-background"
-            id="Project-Section">
+        <section class="projects-section gradient-background" id="Project-Section">
             <div class="projects-container">
                 <div class="section-header">
                     <h2 class="section-title">Featured Projects</h2>
-                    <p class="section-subtitle">Professional work showcasing my
-                        skills and experience</p>
+                    <p class="section-subtitle">Professional work showcasing my skills and experience</p>
                 </div>
 
-                <div class="projects-grid" id="projectsCarousel">
+                <!-- Project Filters -->
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="automation">Automation</button>
+                    <button class="filter-btn" data-filter="game">Game Development</button>
+                    <button class="filter-btn" data-filter="data">Data Science & ML</button>
+                    <button class="filter-btn" data-filter="gui">GUI & Desktop Apps</button>
+                    <button class="filter-btn" data-filter="database">Databases</button>
+                    <button class="filter-btn" data-filter="scraping">Web Scraping</button>
+                </div>
 
+                <!-- 
+                number guessing game: https://www.linkedin.com/posts/activity-7324986112991461377-d8UL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                
+                resume builder: https://www.linkedin.com/posts/activity-7332422239440531456-RBbe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                
+                america map GUI app: https://www.linkedin.com/posts/activity-7342242846185304065-wX5i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Miles to Kilometer GUI: https://www.linkedin.com/posts/activity-7343323853613404161-WiBe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Pomodoro Timer App GUI: https://www.linkedin.com/posts/activity-7343676174604103682--cFn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 password manager GUI: https://www.linkedin.com/posts/activity-7344454565255086080-5eXV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8 
+                 
+                 Flash Card App GUI (capstone): https://www.linkedin.com/posts/activity-7345129875000680448-6497?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Kanye Quotes Notifier (GUI): https://www.linkedin.com/posts/activity-7346409861787611137-rhwn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                 
+                 Quizzler (QUIZ) App (GUI): https://www.linkedin.com/posts/activity-7346772281945219073-Qcti?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                 -->
+                <div class="projects-grid" id="projectsCarousel">
                     <!-- Project 1 -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="web">
                         <div class="card-image">
-                            <img src="./Certificate_and_PNGs/resume-builder.jpg"
-                                alt="Resume Builder">
+                            <img src="./Certificate_and_PNGs/resume-builder.jpg" alt="Resume Builder">
                         </div>
                         <h3 class="project-title">Resume Crafter</h3>
-                        <p class="project-desc">A full-stack application that
-                            helps users create professional resumes with ATS
-                            analysis.</p>
+                        <p class="project-desc">A full-stack application that helps users create professional resumes with ATS analysis.</p>
                         <div class="tech-stack">
-                            <span>Python</span>
-                            <span>Django</span>
-                            <span>JavaScript</span>
                             <span>HTML</span>
                             <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Django</span>
                         </div>
-                        <a
-                            href="https://github.com/soaebhasan12/RESUME-CRAFTER-With-ATS-ANALYSIS"
-                            class="btn">View Case Study <i
-                                class="fas fa-arrow-right"></i></a>
+                        <a href="https://www.linkedin.com/posts/activity-7332422239440531456-RBbe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="web">
                         <div class="card-image">
-                            <img
-                                src="./Certificate_and_PNGs/Higher_Lower_Game.png"
-                                alt="Higher Lower Game">
+                            <img src="./Certificate_and_PNGs/Higher_Lower_Game.png" alt="Higher Lower Game">
                         </div>
                         <h3 class="project-title">Higher Lower Game</h3>
-                        <p class="project-desc">Social media popularity
-                            comparison game.</p>
+                        <p class="project-desc">Social media popularity comparison game.</p>
                         <div class="tech-stack">
                             <span>Python</span>
                             <span>Django</span>
@@ -327,33 +386,215 @@
                             <span>HTML</span>
                             <span>CSS</span>
                         </div>
-                        <a
-                            href="https://github.com/soaebhasan12/INSTAGRAM-FOLLOWERs-GAME"
-                            class="btn">View Case Study <i
-                                class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/soaebhasan12/INSTAGRAM-FOLLOWERs-GAME" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="project-card">
+                    <div class="project-card" data-category="game">
                         <div class="card-image">
-                            <img
-                                src="./Certificate_and_PNGs/number_guessing_game.png"
-                                alt="Number Guessing Game">
+                            <img src="./Certificate_and_PNGs/number_guessing_game.png" alt="Number Guessing Game">
                         </div>
                         <h3 class="project-title">Number Guessing Game</h3>
-                        <p class="project-desc">Interactive game with difficulty
-                            levels.</p>
+                        <p class="project-desc">Interactive game with difficulty levels.</p>
+                        <div class="tech-stack">
+                            <span>Django</span>
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>Sessions</span>
+                            <span>CSS</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7324986112991461377-d8UL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/U.S.-States-Map-GUI-Application.png" alt="U.S.-States-Map-GUI-Application">
+                        </div>
+                        <h3 class="project-title">U.S. States Map GUI Application</h3>
+                        <p class="project-desc">The project reads state data from a CSV, lets you guess state names, and writes correct answers onto a blank U.S. map. Missed states are saved for further learning, making it a fun way to master both data handling and U.S.</p>
+                        <div class="tech-stack">
+                            <span>Pandas</span>
+                            <span>Reading Files</span>
+                            <span>Python</span>
+                            <span>Turtle</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7342242846185304065-wX5i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Miles-to-Kilometer-GUI.png" alt="Miles-to-Kilometer-GUI">
+                        </div>
+                        <h3 class="project-title">Miles to Kilometer GUI</h3>
+                        <p class="project-desc">The app takes input, applies the formula, and displays results instantly</p>
+                        <div class="tech-stack">
+                            <span>Tkinter</span>
+                            <span>Maths</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7343323853613404161-WiBe?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Pomodoro-Timer-App.png" alt="Pomodoro-Timer-App">
+                        </div>
+                        <h3 class="project-title">Pomodoro Timer App</h3>
+                        <p class="project-desc">A simple Pomodoro Timer application built with Python and Tkinter. This project helps you manage your work and break intervals using the Pomodoro Technique, which alternates focused work sessions with short and long breaks.</p>
+                        <div class="tech-stack">
+                            <span>Tkinter</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7343676174604103682--cFn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Password-Manager.png" alt="Password-Manager">
+                        </div>
+                        <h3 class="project-title">Password Manager</h3>
+                        <p class="project-desc">This project is a simple Password Manager application built using Python's Tkinter library. It allows users to generate secure passwords, save them along with website and email/username information, and copy generated passwords to the clipboard for easy use.</p>
                         <div class="tech-stack">
                             <span>Python</span>
-                            <span>Django</span>
-                            <span>Sessions</span>
-                            <span>JavaScript</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
+                            <span>Tkinter</span>
+                            <span>File Handling</span>
+                            <span>Exception Handling</span>
                         </div>
-                        <a href="#" class="btn">View Case Study <i
-                                class="fas fa-arrow-right"></i></a>
+                        <a href="https://www.linkedin.com/posts/activity-7344454565255086080-5eXV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
                     </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Flash-Card-Application.png" alt="Flash-Card-Application">
+                        </div>
+                        <h3 class="project-title">Flash Card Application</h3>
+                        <p class="project-desc">this little tool flips digital flashcards to help you master the most common French words. The best part? If you already know a word, just click the checkmark and—voilà!—it disappears from your deck.</p>
+                        <div class="tech-stack">
+                            <span>Tkinter</span>
+                            <span>Pandas</span>
+                            <span>Python</span>
+                            <span>Exception Handling</span>
+                            <span>File Handling</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7345129875000680448-6497?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Kanye-Quotes-Notifier.png" alt="Kanye-Quotes-Notifier">
+                        </div>
+                        <h3 class="project-title">Kanye Quotes Notifier</h3>
+                        <p class="project-desc">a script that fetches motivational quotes from the Kanye Quote API and sends them to my email using Python’s smtplib module. It was a fun way to practice working with APIs, parsing JSON data, and automating emails.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                            <span>Requests (API Calls)</span>
+                            <span>smtplib (E-Mail Automation)</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7346409861787611137-rhwn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="gui">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Quizzler-(QUIZ)-App.png" alt="Quizzler-(QUIZ)-App">
+                        </div>
+                        <h3 class="project-title">Quizzler App</h3>
+                        <p class="project-desc">This is a simple quiz application built with Python and Tkinter. It fetches True/False questions from the Open Trivia Database API and presents them in a graphical user interface.</p>
+                        <div class="tech-stack">
+                            <span>Tkinter</span>
+                            <span>Python</span>
+                            <span>OOPs Concepts</span>
+                            <span>Open Trivia DB</span>
+                            <span>Requests (API Calls)</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7346772281945219073-Qcti?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="automation">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/ISS-Overhead-Notifier.png" alt="ISS-Overhead-Notifier">
+                        </div>
+                        <h3 class="project-title">ISS Overhead Notifier</h3>
+                        <p class="project-desc">A Python automation project that notifies you via email whenever the International Space Station (ISS) is flying above your location at night.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>requests (API calls)</span>
+                            <span>datetime (time handling)</span>
+                            <span>smtplib (email automation)</span>
+                            <span>time (scheduling)</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7346409861787611137-rhwn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="project-card" data-category="automation">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Stock-News-Alert-System.png" alt="Stock-News-Alert-System">
+                        </div>
+                        <h3 class="project-title">Stock News Alert System</h3>
+                        <p class="project-desc">A Python application that monitors stock price movements and sends SMS alerts with relevant news when significant changes occur.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Alpha API</span>
+                            <span>Vantage API</span>
+                            <span>News API</span>
+                            <span>Twilio API</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7348206739529334785-VvOC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="project-card" data-category="scraping">
+                        <div class="card-image">
+                            <img src="./Certificate_and_PNGs/Automating-Job-Search-on-Linkedin.png" alt="Automating-Job-Search-on-Linkedin">
+                        </div>
+                        <h3 class="project-title">Automating Job Search on Linkedin</h3>
+                        <p class="project-desc">Automate your job search by applying to LinkedIn "Easy Apply" positions with this Python Selenium bot. Saves hours of manual applications while you focus on preparing for interviews.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Selenium Webdriver</span>
+                            <span>Vantage API</span>
+                            <span>News API</span>
+                            <span>Twilio API</span>
+                        </div>
+                        <a href="https://www.linkedin.com/posts/activity-7352570459709673474-CvFd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8" class="btn">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <!-- Add data-category attributes to your other projects -->
+
+
+
+
+
+                <!-- Projects Links of LinkedIn:
+                 Automating Birthday Emails (Automation): https://www.linkedin.com/posts/activity-7345962284457844737-vJha?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Building a Rain Alert System (API- not build): https://www.linkedin.com/posts/activity-7347859473702486016-WGRa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                 
+
+                 ISS Overhead Notifier (API): https://www.linkedin.com/posts/activity-7346409861787611137-rhwn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Stock News Alert System (API): https://www.linkedin.com/posts/activity-7348206739529334785-VvOC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Pixela Habit Tracker (API): https://www.linkedin.com/posts/activity-7348916413329215489-4LoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Workout Tracker (API): https://www.linkedin.com/posts/activity-7349387639923404802-Vtzl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Spotify Time Machine: https://www.linkedin.com/posts/activity-7350381030958153728-MVbH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Automated Amazon Price Tracker (API): https://www.linkedin.com/posts/activity-7350738384903966720-jTsu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Automating Job Search on Linkedin (WebScraping): https://www.linkedin.com/posts/activity-7352570459709673474-CvFd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Higher Lowe Game (Web Development): https://www.linkedin.com/posts/activity-7356569687062720512-fZRr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Data Entry Job Automation (Web Scraping Capstone): https://www.linkedin.com/posts/activity-7359452306372751360-E5fH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Programming Language Analysis (Data Science): https://www.linkedin.com/posts/activity-7360543077465210881-iYMu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 LEGO Data (data science) :https://www.linkedin.com/posts/activity-7360988644385484800-O5PJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+
+                 Google Searches Predict the Future (data science) :https://www.linkedin.com/posts/activity-7361231977129082881-g8PB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnStZkB5XuURZ4F2z1SvLhRLMT68UNS8-8
+                 -->
+
                 </div>
 
                 <!-- Navigation Dots -->
@@ -361,6 +602,7 @@
             </div>
         </section>
 
+        <!-- contact form section -->
         <section id="contact" class="contact-section">
             <div class="contact-container">
                 <!-- Contact Form -->
@@ -372,13 +614,15 @@
                             <label for="name">Name</label>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email"
-                                required>
+                            <input type="email" id="email" name="email" required>
                             <label for="email">Email</label>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" rows="4"
-                                required></textarea>
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
                             <label for="message">Message</label>
                         </div>
                         <button type="submit">Send Message</button>
@@ -388,93 +632,206 @@
                 <!-- Contact Info -->
                 <div class="contact-info">
                     <h2>Contact Info</h2>
-                    <p><strong>Email:</strong> saibuhasan22@gmail.com</p>
-                    <p><strong>Phone:</strong> +91 4444 44 4444</p>
-                    <p><strong>Location:</strong> Roorkee, India</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p><strong>Email</strong></p>
+                            <p>saibuhasan22@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p><strong>Phone</strong></p>
+                            <p>+91 78179 88408</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p><strong>Location</strong></p>
+                            <p>Roorkee, India</p>
+                        </div>
+                    </div>
 
                     <!-- Social Media Links -->
-                    <div class="social-links">
-                        <a href="#" aria-label="Twitter" target="_blank"><i
-                                class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/me/"
-                            aria-label="LinkedIn" target="_blank"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com" aria-label="GitHub"
-                            target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com"
-                            aria-label="Instagram" target="_blank"><i
-                                class="fab fa-instagram"
-                                target="_blank"></i></a>
-                    </div>
-
-                    <!-- Optional Map Embed -->
-                    <div class="map-embed">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55361.573528390705!2d77.85362628970633!3d29.861437490554767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb36e08b35119%3A0x798f5dc25ebd0a72!2sRoorkee%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1750578612224!5m2!1sen!2sin"
-                            width="450" height="300" style="border:0;"
-                            allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="social-links-hero">
+                            <a style="text-decoration: none;"
+                                href="https://www.linkedin.com/in/me/"
+                                aria-label="LinkedIn" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a style="text-decoration: none;"
+                                href="https://github.com/soaebhasan12"
+                                aria-label="GitHub" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                            <a style="text-decoration: none;"
+                                href="https://stackoverflow.com/users/29864548/shoaib-hasan?tab=profile"
+                                aria-label="stackOverflow" target="_blank"><i
+                                    class="fab fa-stack-overflow"></i></a>
+                            <a style="text-decoration: none;"
+                                href="https://www.youtube.com/@btechWaleNotes"
+                                aria-label="stackOverflow" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a style="text-decoration: none;" href="#"
+                                aria-label="Twitter" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a style="text-decoration: none;"
+                                href="https://www.instagram.com"
+                                aria-label="Instagram" target="_blank"><i
+                                    class="fab fa-instagram"
+                                    target="_blank"></i></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                crossorigin="anonymous">
-            </script>
 
-            <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('projectsCarousel');
-  const dotsContainer = document.getElementById('carouselDots');
-  const projects = document.querySelectorAll('.project-card');
-  
-  // Only create dots if on mobile
-  if (window.innerWidth < 992) {
-    projects.forEach((_, index) => {
-      const dot = document.createElement('div');
-      dot.classList.add('dot');
-      if(index === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => {
-        carousel.scrollTo({
-          left: index * (projects[0].offsetWidth + 20), // 20px gap
-          behavior: 'smooth'
+
+
+
+        <!-- JavaScrypt -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const filterButtons = document.querySelectorAll('.filter-btn');
+                const projectCards = document.querySelectorAll('.project-card');
+                
+                filterButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Remove active class from all buttons
+                        filterButtons.forEach(btn => btn.classList.remove('active'));
+                        
+                        // Add active class to clicked button
+                        button.classList.add('active');
+                        
+                        // Get filter value
+                        const filterValue = button.getAttribute('data-filter');
+                        
+                        // Show/hide projects based on filter
+                        projectCards.forEach(card => {
+                            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                                card.style.display = 'flex'; // Changed from 'block' to 'flex'
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                });
+                
+                // Remove carousel initialization completely since we're using grid
+            });
+        </script>
+
+        <!-- // Project filtering functionality -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    // Get filter value
+                    const filterValue = button.getAttribute('data-filter');
+                    
+                    // Show/hide projects based on filter
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                    
+                    // Reinitialize carousel if on mobile
+                    if (window.innerWidth < 992) {
+                        initProjectCarousel();
+                    }
+                });
+            });
+            
+            // Mobile carousel initialization function
+            function initProjectCarousel() {
+                const carousel = document.getElementById('projectsCarousel');
+                const dotsContainer = document.getElementById('carouselDots');
+                const visibleProjects = document.querySelectorAll('.project-card:not([style*="display: none"])');
+                
+                dotsContainer.innerHTML = '';
+                
+                if (window.innerWidth < 992 && visibleProjects.length > 0) {
+                    visibleProjects.forEach((_, index) => {
+                        const dot = document.createElement('div');
+                        dot.classList.add('dot');
+                        if(index === 0) dot.classList.add('active');
+                        dot.addEventListener('click', () => {
+                            carousel.scrollTo({
+                                left: index * (visibleProjects[0].offsetWidth + 20),
+                                behavior: 'smooth'
+                            });
+                            updateDots(index);
+                        });
+                        dotsContainer.appendChild(dot);
+                    });
+                }
+                
+                function updateDots(activeIndex) {
+                    document.querySelectorAll('.dot').forEach((dot, index) => {
+                        dot.classList.toggle('active', index === activeIndex);
+                    });
+                }
+            }
+            
+            // Initialize on load
+            initProjectCarousel();
+            
+            // Reinitialize on resize
+            window.addEventListener('resize', initProjectCarousel);
         });
-        updateDots(index);
-      });
-      dotsContainer.appendChild(dot);
-    });
-  }
-  
-  function updateDots(activeIndex) {
-    document.querySelectorAll('.dot').forEach((dot, index) => {
-      dot.classList.toggle('active', index === activeIndex);
-    });
-  }
-  
-  // Handle window resize
-  window.addEventListener('resize', function() {
-    if (window.innerWidth >= 992) {
-      dotsContainer.innerHTML = '';
-    } else if (dotsContainer.children.length === 0) {
-      projects.forEach((_, index) => {
-        const dot = document.createElement('div');
-        dot.classList.add('dot');
-        if(index === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => {
-          carousel.scrollTo({
-            left: index * (projects[0].offsetWidth + 20),
-            behavior: 'smooth'
-          });
-          updateDots(index);
-        });
-        dotsContainer.appendChild(dot);
-      });
-    }
-  });
-});
-</script>
+        </script>
+
+        <!-- Script to animate the progress bars when they come into view -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Animate skill bars when they come into view
+                const skillBars = document.querySelectorAll('.skill-progress');
+                
+                const animateSkillBars = () => {
+                    skillBars.forEach(bar => {
+                        const level = bar.getAttribute('data-level');
+                        bar.style.width = level + '%';
+                    });
+                };
+                
+                // Use Intersection Observer to animate when in viewport
+                if ('IntersectionObserver' in window) {
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                animateSkillBars();
+                                observer.unobserve(entry.target);
+                            }
+                        });
+                    }, { threshold: 0.5 });
+                    
+                    document.querySelectorAll('.skill-category').forEach(category => {
+                        observer.observe(category);
+                    });
+                } else {
+                    // Fallback for browsers without Intersection Observer
+                    animateSkillBars();
+                }
+            });
+        </script>
 
         </body>
     </html>
